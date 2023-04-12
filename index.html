@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- add meta tags -->
         <title>XYZ Hostpital</title>
         <meta name="description" content="Hospital Website">
-        //add meta tags
-        
+        <meta name="language" content="english">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
@@ -13,6 +14,14 @@
         </header>
         <main>
             <!-- side menu       image carousel (bootstrap??)        map (iframe??) -->
+            <div>
+                <!--suggestion (Omansh): add side menu, image carousel and map in separate divs inside this div so that we can just use flexbox to align them later -->
+                <div id="sideMenu"></div>
+                <div id="imageCarousel"></div>
+                <div id="map">
+                    <iframe src="https://goo.gl/maps/zXtG3zFSYirJNRQH7" width="400" height="300"></iframe>
+                </div>
+            </div>
             <!-- review carousel (bootstrap??) -->
         </main>
         <footer>
